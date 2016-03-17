@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\Age_of_siblings\Age_of_siblings\bin\Debug\Age_of_siblings.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\Age_of_siblings\Age_of_siblings\bin\Debug\Age_of_siblings.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\Age_of_siblings\Age_of_siblings\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\Age_of_siblings\Age_of_siblings\obj\x86\Debug\Age_of_siblings.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\Age_of_siblings\Age_of_siblings\obj\x86\Debug\Age_of_siblings.pdb
