@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\string copy2\string copy2\bin\Debug\string copy2.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\string copy2\string copy2\bin\Debug\string copy2.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\string copy2\string copy2\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\string copy2\string copy2\obj\x86\Debug\string copy2.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\string copy2\string copy2\obj\x86\Debug\string copy2.pdb
