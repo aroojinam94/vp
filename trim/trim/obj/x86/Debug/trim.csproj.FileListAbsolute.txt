@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\trim\trim\bin\Debug\trim.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\trim\trim\bin\Debug\trim.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\trim\trim\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\trim\trim\obj\x86\Debug\trim.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\trim\trim\obj\x86\Debug\trim.pdb
