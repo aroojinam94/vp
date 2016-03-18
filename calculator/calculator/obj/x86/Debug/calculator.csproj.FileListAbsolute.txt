@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\calculator\calculator\bin\Debug\calculator.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\calculator\calculator\bin\Debug\calculator.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\calculator\calculator\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\calculator\calculator\obj\x86\Debug\calculator.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\calculator\calculator\obj\x86\Debug\calculator.pdb

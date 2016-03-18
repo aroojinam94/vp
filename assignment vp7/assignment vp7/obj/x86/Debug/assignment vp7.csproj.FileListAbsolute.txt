@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignment vp7\assignment vp7\bin\Debug\assignment vp7.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignment vp7\assignment vp7\bin\Debug\assignment vp7.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignment vp7\assignment vp7\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignment vp7\assignment vp7\obj\x86\Debug\assignment vp7.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignment vp7\assignment vp7\obj\x86\Debug\assignment vp7.pdb

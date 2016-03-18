@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\asd\asd\bin\Debug\asd.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\asd\asd\bin\Debug\asd.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\asd\asd\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\asd\asd\obj\x86\Debug\asd.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\asd\asd\obj\x86\Debug\asd.pdb

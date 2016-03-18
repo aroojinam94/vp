@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\sibling_date_of _birth\sibling_date_of _birth\bin\Debug\sibling_date_of _birth.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\sibling_date_of _birth\sibling_date_of _birth\bin\Debug\sibling_date_of _birth.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\sibling_date_of _birth\sibling_date_of _birth\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\sibling_date_of _birth\sibling_date_of _birth\obj\x86\Debug\sibling_date_of _birth.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\sibling_date_of _birth\sibling_date_of _birth\obj\x86\Debug\sibling_date_of _birth.pdb

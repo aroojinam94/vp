@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\siblings calculator , Assignmnt 1\siblings calculator , Assignmnt 1\bin\Debug\siblings calculator , Assignmnt 1.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\siblings calculator , Assignmnt 1\siblings calculator , Assignmnt 1\bin\Debug\siblings calculator , Assignmnt 1.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\siblings calculator , Assignmnt 1\siblings calculator , Assignmnt 1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\siblings calculator , Assignmnt 1\siblings calculator , Assignmnt 1\obj\x86\Debug\siblings calculator , Assignmnt 1.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\siblings calculator , Assignmnt 1\siblings calculator , Assignmnt 1\obj\x86\Debug\siblings calculator , Assignmnt 1.pdb

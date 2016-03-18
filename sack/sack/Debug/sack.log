@@ -1,0 +1,19 @@
+﻿Build started 9/28/2014 4:23:35 PM.
+     1>Project "c:\Users\toooooooo\documents\visual studio 2010\Projects\sack\sack\sack.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\sack.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt xyz.cpp
+         xyz.cpp
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\sack\sack\xyz.cpp(23): error C2628: 'stack' followed by 'void' is illegal (did you forget a ';'?)
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\sack\sack\xyz.cpp(24): error C3874: return type of 'main' should be 'int' instead of 'stack'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\sack\sack\xyz.cpp(26): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\sack\sack\xyz.cpp(27): error C2065: 't0p' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\sack\sack\xyz.cpp(30): error C2601: 'stack::is_empty' : local function definitions are illegal
+                 c:\users\toooooooo\documents\visual studio 2010\projects\sack\sack\xyz.cpp(24): this line contains a '{' which has not yet been matched
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\sack\sack\xyz.cpp(74): fatal error C1075: end of file found before the left brace '{' at 'c:\users\toooooooo\documents\visual studio 2010\projects\sack\sack\xyz.cpp(51)' was matched
+     1>Done Building Project "c:\Users\toooooooo\documents\visual studio 2010\Projects\sack\sack\sack.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.59

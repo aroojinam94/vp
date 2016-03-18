@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\visual programng assignmnt\visual programng assignmnt\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\visual programng assignmnt\visual programng assignmnt\bin\Debug\visual programng assignmnt.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\visual programng assignmnt\visual programng assignmnt\bin\Debug\visual programng assignmnt.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\visual programng assignmnt\visual programng assignmnt\obj\x86\Debug\visual programng assignmnt.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\visual programng assignmnt\visual programng assignmnt\obj\x86\Debug\visual programng assignmnt.pdb

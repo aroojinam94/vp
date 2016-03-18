@@ -1,0 +1,15 @@
+﻿Build started 3/23/2015 6:25:29 PM.
+     1>Project "c:\Users\toooooooo\documents\visual studio 2010\Projects\ddddddddd\ddddddddd\ddddddddd.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\ddddddddd.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ppppd.cpp
+         ppppd.cpp
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\ddddddddd\ddddddddd\ppppd.cpp(14): error C2864: 'OS::Rhead' : only static const integral data members can be initialized within a class
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\ddddddddd\ddddddddd\ppppd.cpp(15): error C2864: 'OS::Fhead' : only static const integral data members can be initialized within a class
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\ddddddddd\ddddddddd\ppppd.cpp(16): error C2864: 'OS::Bhead' : only static const integral data members can be initialized within a class
+     1>Done Building Project "c:\Users\toooooooo\documents\visual studio 2010\Projects\ddddddddd\ddddddddd\ddddddddd.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.08

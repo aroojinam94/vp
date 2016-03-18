@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignmnent\assignmnent\bin\Debug\assignmnent.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignmnent\assignmnent\bin\Debug\assignmnent.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignmnent\assignmnent\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignmnent\assignmnent\obj\x86\Debug\assignmnent.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\assignmnent\assignmnent\obj\x86\Debug\assignmnent.pdb

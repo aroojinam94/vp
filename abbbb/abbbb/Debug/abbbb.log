@@ -1,0 +1,114 @@
+﻿Build started 11/17/2015 10:27:18 PM.
+     1>Project "c:\Users\toooooooo\documents\visual studio 2010\Projects\abbbb\abbbb\abbbb.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\abbbb.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt lllllllllllllll.cpp
+         lllllllllllllll.cpp
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(21): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(22): error C3861: 'getpass': identifier not found
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(27): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(28): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(44): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(45): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(45): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(46): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(47): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(48): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(49): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(50): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(51): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(52): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(53): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(53): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(57): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(58): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(59): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(59): error C2065: 'endl' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(82): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(83): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(83): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(84): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(85): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(86): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(87): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(87): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(90): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(91): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(91): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(93): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(95): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(95): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(96): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(97): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(98): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(99): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(100): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(104): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(105): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(106): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(107): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(108): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(109): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(110): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(111): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(114): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(115): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(118): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(119): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(120): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(121): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(121): error C2065: 'endl' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(122): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(123): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(124): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(144): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(145): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(145): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(146): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(146): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(147): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(151): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(152): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(153): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(154): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(155): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(156): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(158): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(159): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(160): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(163): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(164): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(166): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(167): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(167): error C2065: 'endl' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(168): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(169): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(170): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(184): error C3861: 'clrscr': identifier not found
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(186): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(187): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(188): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(191): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(192): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(193): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(194): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(195): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(195): error C2065: 'endl' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(215): error C3861: 'getpass': identifier not found
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(217): error C2065: 'fstream' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(217): error C2146: syntax error : missing ';' before identifier 'f'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(222): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(223): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(231): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(232): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(233): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(234): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(235): error C2065: 'cout' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(236): error C2065: 'cin' : undeclared identifier
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abbbb\abbbb\lllllllllllllll.cpp(236): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "c:\Users\toooooooo\documents\visual studio 2010\Projects\abbbb\abbbb\abbbb.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.80

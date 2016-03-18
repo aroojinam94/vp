@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\string_clone_practice\string_clone_practice\bin\Debug\string_clone_practice.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\string_clone_practice\string_clone_practice\bin\Debug\string_clone_practice.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\string_clone_practice\string_clone_practice\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\string_clone_practice\string_clone_practice\obj\x86\Debug\string_clone_practice.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\string_clone_practice\string_clone_practice\obj\x86\Debug\string_clone_practice.pdb

@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\string compare\string compare\bin\Debug\string compare.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\string compare\string compare\bin\Debug\string compare.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\string compare\string compare\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\string compare\string compare\obj\x86\Debug\string compare.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\string compare\string compare\obj\x86\Debug\string compare.pdb

@@ -1,0 +1,9 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\bin\Debug\ll.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\bin\Debug\ll.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\obj\x86\Debug\ll.Form1.resources
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\obj\x86\Debug\ll.Properties.Resources.resources
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\obj\x86\Debug\ll.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\ll\ll\obj\x86\Debug\ll.pdb

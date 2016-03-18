@@ -1,0 +1,23 @@
+﻿Build started 10/19/2014 6:02:37 PM.
+     1>Project "c:\Users\toooooooo\documents\visual studio 2010\Projects\abx\abx\abx.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\abx.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cncm.cpp
+         cncm.cpp
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(62): error C2143: syntax error : missing ';' before 'end of file'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(19): error C2146: syntax error : missing ';' before identifier 'empty'
+                 c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(62) : see reference to class template instantiation 'stack<x>' being compiled
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(19): error C2932: 'stack<x>' : template-class-id redefined as a data member of 'stack<x>'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(19): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(19): error C2143: syntax error : missing ';' before '<end Parse>'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(19): warning C4183: 'empty': missing return type; assumed to be a member function returning 'int'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(24): error C2649: 'typename' : is not a 'class'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(61): error C2238: unexpected token(s) preceding ';'
+     1>c:\users\toooooooo\documents\visual studio 2010\projects\abx\abx\cncm.cpp(61): fatal error C1201: unable to continue after syntax error in class template definition
+     1>Done Building Project "c:\Users\toooooooo\documents\visual studio 2010\Projects\abx\abx\abx.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.98

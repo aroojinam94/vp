@@ -1,0 +1,5 @@
+c:\users\toooooooo\documents\visual studio 2010\Projects\vp assignmnt 1\vp assignmnt 1\bin\Debug\vp assignmnt 1.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\vp assignmnt 1\vp assignmnt 1\bin\Debug\vp assignmnt 1.pdb
+c:\users\toooooooo\documents\visual studio 2010\Projects\vp assignmnt 1\vp assignmnt 1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\toooooooo\documents\visual studio 2010\Projects\vp assignmnt 1\vp assignmnt 1\obj\x86\Debug\vp assignmnt 1.exe
+c:\users\toooooooo\documents\visual studio 2010\Projects\vp assignmnt 1\vp assignmnt 1\obj\x86\Debug\vp assignmnt 1.pdb
