@@ -1,0 +1,6 @@
+c:\users\abbassi\documents\visual studio 2013\Projects\just for checking\just for checking\bin\Debug\just for checking.exe.config
+c:\users\abbassi\documents\visual studio 2013\Projects\just for checking\just for checking\bin\Debug\just for checking.exe
+c:\users\abbassi\documents\visual studio 2013\Projects\just for checking\just for checking\bin\Debug\just for checking.pdb
+c:\users\abbassi\documents\visual studio 2013\Projects\just for checking\just for checking\obj\Debug\just for checking.csprojResolveAssemblyReference.cache
+c:\users\abbassi\documents\visual studio 2013\Projects\just for checking\just for checking\obj\Debug\just for checking.exe
+c:\users\abbassi\documents\visual studio 2013\Projects\just for checking\just for checking\obj\Debug\just for checking.pdb
