@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.ShuffleB = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -89,17 +89,17 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "0";
             // 
-            // button1
+            // ShuffleB
             // 
-            this.button1.BackColor = System.Drawing.Color.MistyRose;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(198, 486);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 27);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Shuffle";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.ShuffleB.BackColor = System.Drawing.Color.MistyRose;
+            this.ShuffleB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ShuffleB.Location = new System.Drawing.Point(161, 505);
+            this.ShuffleB.Name = "ShuffleB";
+            this.ShuffleB.Size = new System.Drawing.Size(137, 27);
+            this.ShuffleB.TabIndex = 14;
+            this.ShuffleB.Text = "Shuffle";
+            this.ShuffleB.UseVisualStyleBackColor = false;
+            this.ShuffleB.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -192,7 +192,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ShuffleB);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -201,6 +201,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Puzzle";
             this.Text = "Tiles puzzle";
+            this.Load += new System.EventHandler(this.Puzzle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -216,7 +217,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button ShuffleB;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;

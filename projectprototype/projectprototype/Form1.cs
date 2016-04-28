@@ -11,8 +11,7 @@ using System.Windows.Forms;
 namespace projectprototype
 {
     public partial class Form1 : Form
-    {
-        Puzzle p1 = new Puzzle();
+    { 
         public Form1()
         {
             InitializeComponent();
@@ -30,8 +29,10 @@ namespace projectprototype
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Puzzle ps = new Puzzle();
             this.Hide();
-            p1.Show();
+            ps.Show();
+    
         }
     }
 }
