@@ -62,7 +62,7 @@ private void Tile_Clicked(object sender, EventArgs e)
                 dlg.Filter = "jpg files (*.jpg)|*.jpg|png files(*.png)|*.png";
                 if (dlg.ShowDialog()==DialogResult.OK)
                 {
-                    pictureBox1.Image = new Bitmap(dlg.FileName);
+                    pictureBox1.Image = new Bitmap(dlg.FileName); 
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                     for( int i=0;i<3;i++)
                     {
@@ -88,7 +88,7 @@ private void Tile_Clicked(object sender, EventArgs e)
                     {
                         for (int j = 0; j < 3; j++)
                         {
-                             LoadPicture(Num, i, j);
+                             LoadPicture(dlg.FileName, Num, i, j);
                             Num++;
                         }
                     }
@@ -106,7 +106,7 @@ private void Tile_Clicked(object sender, EventArgs e)
                  Bitmap bmpCrop=bmpImage.Clone( cropArea,System.Drawing.Imaging.PixelFormat.DontCare);
                  return (Image)(bmpCrop);
             }
-        private void LoadPicture (int Num, int i, int j )
+        private void LoadPicture (string path, int Num, int i, int j )
         {
         if (Num==1)
             Tiles[i,j].BackgroundImage=list[0];
@@ -129,7 +129,7 @@ private void Tile_Clicked(object sender, EventArgs e)
             {
             Tiles[i, j].Text="";
                 Tiles[i, j].BackColor=Color.Red;
-                Tiles[i,j].BackgroundImage= new Bitmap( "C:\\ users \\ABBASI\\Documents\\Visual Studio 2013\\projectprototype\\projectprototype\\thinking.jpg");
+                Tiles[i,j].BackgroundImage= new Bitmap(path);
                 Tiles[i, j].BackgroundImage.Tag=9;
 
              }
