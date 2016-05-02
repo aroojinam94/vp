@@ -15,6 +15,7 @@ namespace projectprototype
         int moves = 0;
         Button [,] Tiles =new  Button[3,3];
         List<Image>list= new List<Image>();
+        int timeLeft = 99 * 60;
         public Puzzle()
         {
             InitializeComponent();
@@ -137,14 +138,95 @@ private void Tile_Clicked(object sender, EventArgs e)
         }
         private void Shuffle()
         {
+            var random = new Random();
+            var intArray = Enumerable.Range(1, 8).OrderBy(t => random.Next()).ToArray();
+            int Num = 0;
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (i == 2 && j == 2)
+                        break;
+                      if (intArray[Num]==1)
+                        Tiles[i,j].BackgroundImage=list[0];
+                      if (intArray[Num] == 2)
+                          Tiles[i, j].BackgroundImage = list[3];
+                      if (intArray[Num] == 3)
+                          Tiles[i, j].BackgroundImage = list[6];
+                      if (intArray[Num] == 4)
+                          Tiles[i, j].BackgroundImage = list[1];
+                      if (intArray[Num] == 5)
+                          Tiles[i, j].BackgroundImage = list[4];
+                     if (intArray[Num] == 6)
+                          Tiles[i, j].BackgroundImage = list[7];
+                     if (intArray[Num] == 7)
+                         Tiles[i, j].BackgroundImage = list[2];
+                     if (intArray[Num] == 8)
+                         Tiles[i, j].BackgroundImage = list[5];
+
+                     Num++;
+   
+                }
+            
+            }
+            Tiles[2,2].BackgroundImage = new Bitmap(Path);
+           Tiles[2, 2].BackgroundImage.Tag = 9;
+  
+        }
+        private void CheckIfComplete()
+        {
+            int Num = 1;
+            bool ifComplete = true;
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    if (i == 2 && j == 2)
+                        break;
+                    if (Tiles[i, j].BackgroundImage.Tag.ToString() != Num.ToString())
+                    {
+                        ifComplete == false;
+                        break;
+                    }
+                    Num++;
+                }
+            
+            }
+            if (ifComplete)
+            {
+                timer1.Stop();
+                Tiles[2, 2].BackColor = Color.Green;
+                Tiles[2, 2].BackgroundImage = list[8];
+                MessageBox.Show("Puzzle Solved ");
+                this.Hide();
+            
+            }
         
+        
+        
+        
+        }
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (timeLeft > 0)
+            {
+                timeLeft = timeLeft - 1;
+                label1.Text = timeLeft.ToString() + " sec";
+            }
+            else
+            {
+                timer1.Stop();
+                label1.Text = "Times Up: ";
+                MessageBox.Show(" you didn't finish in time.", "SORI!");
+                Close();
+
+            
+            }
         }
             
         
          
-             
-
-
         private void button1_Click(object sender, EventArgs e)
         {
 
