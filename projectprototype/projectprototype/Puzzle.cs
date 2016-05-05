@@ -12,7 +12,9 @@ namespace projectprototype
 {
     public partial class Puzzle : Form
     {
-        int moves = 0;
+        
+        string path = System.IO.Directory.GetCurrentDirectory();// gets the current working directory of application 
+        //int moves = 0;
         Button [,] Tiles =new  Button[3,3];
         List<Image>list= new List<Image>();
         int timeLeft = 99 * 60;
@@ -89,7 +91,7 @@ private void Tile_Clicked(object sender, EventArgs e)
                     {
                         for (int j = 0; j < 3; j++)
                         {
-                             LoadPicture(dlg.FileName, Num, i, j);
+                             LoadPicture(Num, i, j);
                             Num++;
                         }
                     }
@@ -107,7 +109,7 @@ private void Tile_Clicked(object sender, EventArgs e)
                  Bitmap bmpCrop=bmpImage.Clone( cropArea,System.Drawing.Imaging.PixelFormat.DontCare);
                  return (Image)(bmpCrop);
             }
-        private void LoadPicture (string path, int Num, int i, int j )
+        private void LoadPicture (int Num, int i, int j )
         {
         if (Num==1)
             Tiles[i,j].BackgroundImage=list[0];
@@ -129,14 +131,16 @@ private void Tile_Clicked(object sender, EventArgs e)
             if (i==2 && j==2)
             {
             Tiles[i, j].Text="";
-                Tiles[i, j].BackColor=Color.Red;
-                Tiles[i,j].BackgroundImage= new Bitmap(path);
+               
+                Tiles[i,j].BackgroundImage= new Bitmap(path+"\\thinking.jpg");
                 Tiles[i, j].BackgroundImage.Tag=9;
 
              }
             Tiles[i, j].BackgroundImage .Tag=Num;
         }
-        private void Shuffle()
+       
+        private void Shuffle( )
+       
         {
             var random = new Random();
             var intArray = Enumerable.Range(1, 8).OrderBy(t => random.Next()).ToArray();
@@ -168,10 +172,11 @@ private void Tile_Clicked(object sender, EventArgs e)
                      Num++;
    
                 }
-            
+                
+                
             }
-            Tiles[2,2].BackgroundImage = new Bitmap(Path);
-           Tiles[2, 2].BackgroundImage.Tag = 9;
+            Tiles[2,2].BackgroundImage = new Bitmap(path+"\\thinking.jpg");
+            Tiles[2, 2].BackgroundImage.Tag = 9;
   
         }
         private void CheckIfComplete()
@@ -186,7 +191,7 @@ private void Tile_Clicked(object sender, EventArgs e)
                         break;
                     if (Tiles[i, j].BackgroundImage.Tag.ToString() != Num.ToString())
                     {
-                        ifComplete == false;
+                        ifComplete = false;
                         break;
                     }
                     Num++;
@@ -224,12 +229,14 @@ private void Tile_Clicked(object sender, EventArgs e)
             
             }
         }
-            
-        
-         
-        private void button1_Click(object sender, EventArgs e)
+
+
+
+        private void button1_Click(   object sender, EventArgs e)
         {
 
+            Shuffle();
+            playb.Visible = true;
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -243,6 +250,11 @@ private void Tile_Clicked(object sender, EventArgs e)
         }
 
         private void Puzzle_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }
