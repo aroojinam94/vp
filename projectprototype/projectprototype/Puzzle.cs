@@ -14,7 +14,7 @@ namespace projectprototype
     {
         
         string path = System.IO.Directory.GetCurrentDirectory();// gets the current working directory of application 
-        //int moves = 0;
+        int moves = 0;
         Button [,] Tiles =new  Button[3,3];
         List<Image>list= new List<Image>();
         int timeLeft = 99 * 60;
@@ -46,10 +46,7 @@ namespace projectprototype
 
             }
 
-private void Tile_Clicked(object sender, EventArgs e)
-{
- 	throw new NotImplementedException();
-}
+
 
         
       private void pictureBox1_Click(object sender, EventArgs e)
@@ -67,7 +64,7 @@ private void Tile_Clicked(object sender, EventArgs e)
                 {
                     pictureBox1.Image = new Bitmap(dlg.FileName); 
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-                    for( int i=0;i<3;i++)
+                    for( int i=0;i<3;i++) 
                     {
                         for (int y = 0; y < 3; y++)
                         {
@@ -82,9 +79,9 @@ private void Tile_Clicked(object sender, EventArgs e)
                             
                         }
 
-
+                        button1Shuffle.Visible = true;
                     }
-                    pictureBox1.Invalidate();
+                    pictureBox1.Invalidate(); 
 
                     int Num = 1;
                     for( int i=0; i<3;i++)
@@ -100,7 +97,8 @@ private void Tile_Clicked(object sender, EventArgs e)
 
             
             }
-            ShuffleB.Visible = true;
+            button1Shuffle.Visible = true;
+            choosepic.Visible = false;
         }
        
         private static Image cropImage(Image img , Rectangle cropArea)
@@ -130,53 +128,61 @@ private void Tile_Clicked(object sender, EventArgs e)
 
             if (i==2 && j==2)
             {
-            Tiles[i, j].Text="";
+            Tiles[i, j].Text=" ";
                
                 Tiles[i,j].BackgroundImage= new Bitmap(path+"\\thinking.jpg");
-                Tiles[i, j].BackgroundImage.Tag=9;
+                Tiles[i,j].BackgroundImage.Tag=9;
 
              }
-            Tiles[i, j].BackgroundImage .Tag=Num;
+            Tiles[i, j].BackgroundImage.Tag=Num;
         }
        
         private void Shuffle( )
        
         {
-            var random = new Random();
-            var intArray = Enumerable.Range(1, 8).OrderBy(t => random.Next()).ToArray();
-            int Num = 0;
-
-            for (int i = 0; i < 3; i++)
+            try
             {
-                for (int j = 0; j < 3; j++)
-                {
-                    if (i == 2 && j == 2)
-                        break;
-                      if (intArray[Num]==1)
-                        Tiles[i,j].BackgroundImage=list[0];
-                      if (intArray[Num] == 2)
-                          Tiles[i, j].BackgroundImage = list[3];
-                      if (intArray[Num] == 3)
-                          Tiles[i, j].BackgroundImage = list[6];
-                      if (intArray[Num] == 4)
-                          Tiles[i, j].BackgroundImage = list[1];
-                      if (intArray[Num] == 5)
-                          Tiles[i, j].BackgroundImage = list[4];
-                     if (intArray[Num] == 6)
-                          Tiles[i, j].BackgroundImage = list[7];
-                     if (intArray[Num] == 7)
-                         Tiles[i, j].BackgroundImage = list[2];
-                     if (intArray[Num] == 8)
-                         Tiles[i, j].BackgroundImage = list[5];
+                var random = new Random();
+                var intArray = Enumerable.Range(1, 8).OrderBy(t => random.Next()).ToArray();
+                int Num = 0;
 
-                     Num++;
-   
+                for (int i = 0; i < 3; i++)
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        if (i == 2 && j == 2)
+                            break;
+                        if (intArray[Num] == 1)
+                            Tiles[i, j].BackgroundImage = list[0];
+                        if (intArray[Num] == 2)
+                            Tiles[i, j].BackgroundImage = list[3];
+                        if (intArray[Num] == 3)
+                            Tiles[i, j].BackgroundImage = list[6];
+                        if (intArray[Num] == 4)
+                            Tiles[i, j].BackgroundImage = list[1];
+                        if (intArray[Num] == 5)
+                            Tiles[i, j].BackgroundImage = list[4];
+                        if (intArray[Num] == 6)
+                            Tiles[i, j].BackgroundImage = list[7];
+                        if (intArray[Num] == 7)
+                            Tiles[i, j].BackgroundImage = list[2];
+                        if (intArray[Num] == 8)
+                            Tiles[i, j].BackgroundImage = list[5];
+
+                        Num++;
+
+                    }
+
+
                 }
-                
-                
+                Tiles[2, 2].BackgroundImage = new Bitmap(path + "\\thinking.jpg");
+                Tiles[2, 2].BackgroundImage.Tag = 9;
             }
-            Tiles[2,2].BackgroundImage = new Bitmap(path+"\\thinking.jpg");
-            Tiles[2, 2].BackgroundImage.Tag = 9;
+
+            catch(Exception )
+            {
+                MessageBox.Show("Select Picture first" );
+            }
   
         }
         private void CheckIfComplete()
@@ -208,43 +214,107 @@ private void Tile_Clicked(object sender, EventArgs e)
             
             }
         
-        
-        
-        
-        }
-        private void timer1_Tick(object sender, EventArgs e)
+ }
+        private void SeeIfThereIsAMove(Button bClicked, int i, int j)
         {
-            if (timeLeft > 0)
+            //if Above
+            string SwapTag;
+            if ((i - 1) >= 0)
             {
-                timeLeft = timeLeft - 1;
-                label1.Text = timeLeft.ToString() + " sec";
+                if (Tiles[i - 1, j].Text == " ")
+                {
+                    
+                    SwapTag = Tiles[i - 1, j].BackgroundImage.Tag.ToString();
+                    Tiles[i - 1, j].Text = "";
+                    Tiles[i - 1, j].BackgroundImage = bClicked.BackgroundImage;
+                    bClicked.Text = " ";
+                    bClicked.BackColor = Color.Red;
+                    bClicked.BackgroundImage = new Bitmap(path + "\\thinking.jpg");
+                    bClicked.BackgroundImage.Tag = SwapTag;
+                    Tiles[i - 1, j].Focus();
+                }
             }
-            else
+            if ((j + 1) < 3)//if Right
             {
-                timer1.Stop();
-                label1.Text = "Times Up: ";
-                MessageBox.Show(" you didn't finish in time.", "SORI!");
-                Close();
-
+                if (Tiles[i, j + 1].Text == " ")
+                {
+                    
+                    SwapTag = Tiles[i, j + 1].BackgroundImage.Tag.ToString();
+                    Tiles[i, j + 1].Text = "";
+                    Tiles[i, j + 1].BackgroundImage = bClicked.BackgroundImage;
+                    bClicked.Text = " ";
+                    bClicked.BackColor = Color.Red;
+                    bClicked.BackgroundImage = new Bitmap(path + "\\thinking.jpg");
+                    bClicked.BackgroundImage.Tag = SwapTag;
+                    Tiles[i, j + 1].Focus();
+                }
+            }
+            if ((j - 1) >= 0)//if Left
+            {
+                if (Tiles[i, j - 1].Text == " ")
+                {
+                   
+                    SwapTag = Tiles[i, j - 1].BackgroundImage.Tag.ToString();
+                    Tiles[i, j - 1].Text = "";
+                    Tiles[i, j - 1].BackgroundImage = bClicked.BackgroundImage;
+                    bClicked.Text = " ";
+                    bClicked.BackColor = Color.Red;
+                    bClicked.BackgroundImage = new Bitmap(path + "\\thinking.jpg");
+                    bClicked.BackgroundImage.Tag = SwapTag;
+                    Tiles[i, j - 1].Focus();
+                }
+            }
+            if (i + 1 < 3)//if Down
+            {
+                if (Tiles[i + 1, j].Text == " ")
+                {
+                    
+                    SwapTag = Tiles[i + 1, j].BackgroundImage.Tag.ToString();
+                    Tiles[i + 1, j].Text = "";
+                    Tiles[i + 1, j].BackgroundImage = bClicked.BackgroundImage;
+                    bClicked.Text = " ";
+                    bClicked.BackColor = Color.Red;
+                    bClicked.BackgroundImage = new Bitmap(path + "\\thinking.jpg");
+                    bClicked.BackgroundImage.Tag = SwapTag;
+                    Tiles[i + 1, j].Focus();
+                }
+            }
+            CheckIfComplete();
             
-            }
+        }
+        private void Tile_Clicked(object sender, EventArgs e)
+        {
+            Button bClicked = (Button)sender;
+            string Location = bClicked.Tag.ToString();
+            int x = Convert.ToInt32(Location[0] - 48);
+            int y = Convert.ToInt32(Location[1] - 48);
+            SeeIfThereIsAMove(bClicked, x, y);
+            moves++;
+            this.label4CMoves.Text = moves.ToString();
+            //MessageBox.Show("CHECKED");
         }
 
+      
+        
+        
 
 
-        private void button1_Click(   object sender, EventArgs e)
+
+        private void button1Shuffle_Click(   object sender, EventArgs e)
         {
-
+            
             Shuffle();
-            playb.Visible = true;
+            playbtn.Visible = true;
+           button1Shuffle.Visible = false;
+            
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void label1Time_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label7_Click(object sender, EventArgs e)
+        private void label7Moves_Click(object sender, EventArgs e)
         {
 
         }
@@ -257,6 +327,83 @@ private void Tile_Clicked(object sender, EventArgs e)
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void playbtn_Click(object sender, EventArgs e)
+        {
+            
+            timer1.Start();
+            for (int i = 0; i < 3; i++ )
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Tiles[i, j].Enabled = true;
+                
+                
+                }
+            
+            }
+        }
+
+        private void label4CMoves_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6timeleft_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sloveB_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                Tiles[0, 0].BackgroundImage = list[0];
+                Tiles[0, 1].BackgroundImage = list[3];
+                Tiles[0, 2].BackgroundImage = list[6];
+                Tiles[1, 0].BackgroundImage = list[1];
+                Tiles[1, 1].BackgroundImage = list[4];
+                Tiles[1, 2].BackgroundImage = list[7];
+                Tiles[2, 0].BackgroundImage = list[2];
+                Tiles[2, 1].BackgroundImage = list[5];
+                Tiles[2, 2].BackgroundImage = list[8];
+                for (int i = 0; i < 3; i++)
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        Tiles[i, j].Enabled = false;
+
+
+                    }
+
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Select Picture first");
+            }
+
+
+         }
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            if (timeLeft > 0)
+            {
+                timeLeft = timeLeft - 1;
+                label1Time.Text = timeLeft.ToString() + " sec";
+            }
+            else
+            {
+                timer1.Stop();
+                label1Time.Text = "Times Up: ";
+                MessageBox.Show(" you didn't finish in time.", "SORI!");
+                Close();
+
+
+            }
         }
     }
 }
