@@ -17,7 +17,7 @@ namespace projectprototype
         int moves = 0;
         Button [,] Tiles =new  Button[3,3];
         List<Image>list= new List<Image>();// img list //
-        int timeLeft = 150;
+        int timeLeft = 1000;
         public Puzzle()
         {
             InitializeComponent();
