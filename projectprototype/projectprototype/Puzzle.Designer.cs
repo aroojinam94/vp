@@ -38,8 +38,8 @@
             this.label1Time = new System.Windows.Forms.Label();
             this.label7Moves = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.sloveB = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.solveB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,19 +143,8 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 1;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
-            // 
-            // sloveB
-            // 
-            this.sloveB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.sloveB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sloveB.Location = new System.Drawing.Point(478, 505);
-            this.sloveB.Name = "sloveB";
-            this.sloveB.Size = new System.Drawing.Size(453, 32);
-            this.sloveB.TabIndex = 20;
-            this.sloveB.Text = "Solve";
-            this.sloveB.UseVisualStyleBackColor = true;
-            this.sloveB.Click += new System.EventHandler(this.sloveB_Click);
             // 
             // pictureBox1
             // 
@@ -168,6 +157,20 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
+            // solveB
+            // 
+            this.solveB.AutoSize = true;
+            this.solveB.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.solveB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.solveB.Location = new System.Drawing.Point(879, 512);
+            this.solveB.Name = "solveB";
+            this.solveB.Size = new System.Drawing.Size(52, 25);
+            this.solveB.TabIndex = 20;
+            this.solveB.Text = "Solve";
+            this.solveB.UseVisualStyleBackColor = true;
+            this.solveB.Visible = false;
+            this.solveB.Click += new System.EventHandler(this.sloveB_Click);
+            // 
             // Puzzle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,7 +179,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(943, 544);
-            this.Controls.Add(this.sloveB);
+            this.Controls.Add(this.solveB);
             this.Controls.Add(this.label7Moves);
             this.Controls.Add(this.label1Time);
             this.Controls.Add(this.label6timeleft);
@@ -207,7 +210,7 @@
         private System.Windows.Forms.Label label1Time;
         private System.Windows.Forms.Label label7Moves;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button sloveB;
+        private System.Windows.Forms.Button solveB;
 
     }
 }

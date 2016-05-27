@@ -70,9 +70,9 @@
             this.pictureBoxExit.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxExit.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxExit.Image")));
-            this.pictureBoxExit.Location = new System.Drawing.Point(451, 255);
+            this.pictureBoxExit.Location = new System.Drawing.Point(451, 275);
             this.pictureBoxExit.Name = "pictureBoxExit";
-            this.pictureBoxExit.Size = new System.Drawing.Size(66, 62);
+            this.pictureBoxExit.Size = new System.Drawing.Size(34, 42);
             this.pictureBoxExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxExit.TabIndex = 7;
             this.pictureBoxExit.TabStop = false;

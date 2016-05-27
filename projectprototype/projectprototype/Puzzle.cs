@@ -17,7 +17,7 @@ namespace projectprototype
         int moves = 0;
         Button [,] Tiles =new  Button[3,3];
         List<Image>list= new List<Image>();// img list //
-        int timeLeft = 99 * 60;
+        int timeLeft = 150;
         public Puzzle()
         {
             InitializeComponent();
@@ -307,7 +307,7 @@ namespace projectprototype
             Shuffle();
             playbtn.Visible = true;
            button1Shuffle.Visible = false;
-            
+           
         }
 
         private void label1Time_Click(object sender, EventArgs e)
@@ -332,7 +332,7 @@ namespace projectprototype
 
         private void playbtn_Click(object sender, EventArgs e)
         {
-            
+            playbtn.Visible = false;
             timer1.Start();
             for (int i = 0; i < 3; i++ )
             {
@@ -344,6 +344,7 @@ namespace projectprototype
                 }
             
             }
+            solveB.Visible = true;
         }
 
         private void label4CMoves_Click(object sender, EventArgs e)
@@ -380,7 +381,8 @@ namespace projectprototype
                     }
 
                 }
-                MessageBox.Show("Game Solved");
+                timer1.Stop();
+                MessageBox.Show("Game Solved", "Info", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
             }
             catch (Exception)
             {
@@ -402,11 +404,21 @@ namespace projectprototype
             {
                 timer1.Stop();
                 label1Time.Text = "Times Up: ";
-                MessageBox.Show(" you didn't finish in time.", "SORI!");
+                MessageBox.Show("You didn't finish in time. SORRY!", "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
                 Close();
 
 
             }
+        }
+
+        private void solveBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSolve_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
