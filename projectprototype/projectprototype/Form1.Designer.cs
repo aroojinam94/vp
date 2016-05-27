@@ -34,6 +34,7 @@
             this.pictureBoxStart = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pictureBoxExit = new System.Windows.Forms.PictureBox();
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxExit)).BeginInit();
             this.SuspendLayout();
@@ -107,6 +108,7 @@
         private System.Windows.Forms.PictureBox pictureBoxStart;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.PictureBox pictureBoxExit;
+        private System.Windows.Forms.ToolTip toolTip2;
     }
 }
 

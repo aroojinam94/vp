@@ -54,7 +54,7 @@
             this.choosepic.TabIndex = 9;
             this.choosepic.Text = "Choose Picture ";
             this.choosepic.UseVisualStyleBackColor = false;
-            this.choosepic.Click += new System.EventHandler(this.playb_Click);
+            this.choosepic.Click += new System.EventHandler(this.choosepic_Click);
             // 
             // label4CMoves
             // 

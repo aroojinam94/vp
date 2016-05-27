@@ -16,7 +16,7 @@ namespace projectprototype
         string path = System.IO.Directory.GetCurrentDirectory();// gets the current working directory of application 
         int moves = 0;
         Button [,] Tiles =new  Button[3,3];
-        List<Image>list= new List<Image>();
+        List<Image>list= new List<Image>();// img list //
         int timeLeft = 99 * 60;
         public Puzzle()
         {
@@ -54,7 +54,7 @@ namespace projectprototype
 
         }
 
-        private void playb_Click(object sender, EventArgs e)
+        private void choosepic_Click(object sender, EventArgs e)
         {
             using (OpenFileDialog dlg =new OpenFileDialog())
             {
@@ -62,7 +62,7 @@ namespace projectprototype
                 dlg.Filter = "jpg files (*.jpg)|*.jpg|png files(*.png)|*.png";
                 if (dlg.ShowDialog()==DialogResult.OK)
                 {
-                    pictureBox1.Image = new Bitmap(dlg.FileName); 
+                    pictureBox1.Image = new Bitmap(dlg.FileName); //path of pictuire 
                     pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
                     for( int i=0;i<3;i++) 
                     {
@@ -81,7 +81,7 @@ namespace projectprototype
 
                         button1Shuffle.Visible = true;
                     }
-                    pictureBox1.Invalidate(); 
+                    pictureBox1.Invalidate(); // redraw picture 
 
                     int Num = 1;
                     for( int i=0; i<3;i++)
@@ -280,6 +280,7 @@ namespace projectprototype
                 }
             }
             CheckIfComplete();
+            playbtn.Visible = false;
             
         }
         private void Tile_Clicked(object sender, EventArgs e)
@@ -379,11 +380,13 @@ namespace projectprototype
                     }
 
                 }
+                MessageBox.Show("Game Solved");
             }
             catch (Exception)
             {
                 MessageBox.Show("Select Picture first");
             }
+
 
 
          }
